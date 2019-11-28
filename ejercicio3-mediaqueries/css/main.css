@@ -1,0 +1,44 @@
+/*CODIGO PARA MOVIL*/ 
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+/*CODIGO TABLET*/
+
+@media only screen and (min-width:768px){
+    .square{
+        width: 300px;
+        height: 300px;
+        border-radius: 25%;
+        border: 3px dotted;
+        border-top-color: rgb(100, 189, 58);
+        border-right-color: rgb(0, 0, 0);
+        border-bottom-color: rgb(100, 189, 58);
+        border-left-color: #000000;
+        margin:0 auto;
+    }
+
+    body {
+        background-color: grey;
+        
+    }
+}
+
+/*CODIGO DESKTOP*/
+
+@media only screen and (min-width:1024px){
+    .square {
+        border-radius: 50%;
+        width: 700px;
+        height: 700px;
+        margin-left: auto;
+        border: 5px dashed peru;
+    }
+
+    body {
+        background:linear-gradient(to bottom, #1c5f86, #2f8cc2)
+    }
+}
